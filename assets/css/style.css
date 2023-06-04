@@ -2,6 +2,10 @@ body{
     margin: 0rem 8rem 0rem 8rem;
     background-color: #FCF7F1;
     color: #212529;
+    font-family:'Geologica', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 header, section, footer{
     padding: 2rem 0rem 2rem 0rem;
