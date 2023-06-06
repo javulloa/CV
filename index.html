@@ -19,13 +19,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mx-auto">
                     <li class="nav-item px-5">
-                        <a class="nav-link active color-1" style="color: #866DE2;" aria-current="page" href="#">Sobre Mí</a>
+                        <a class="nav-link active color-1" style="color: #866DE2;" aria-current="page" href="#sobre-mi">Sobre Mí</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #866DE2;">
+                          Portafolio
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-dark" href="./p-ux-ui.html">UX/UI</a></li>
+                          <li><a class="dropdown-item text-dark" href="./p-diseño-prod.html">Diseño de Productos</a></li>
+                          <li><a class="dropdown-item text-dark" href="./p-diseño-graf.html">Diseño Gráfico e Ilustración</a></li>
+                        </ul>
                     <li class="nav-item px-5">
-                        <a class="nav-link active" style="color: #866DE2;"  href="#">Portafolio</a>
-                    </li>
-                    <li class="nav-item px-5">
-                        <a class="nav-link active" style="color: #866DE2;" href="#">Contacto</a>
+                        <a class="nav-link active" style="color: #866DE2;" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +57,7 @@
 
     <!--Sobre Mí -->
     <section>
-        <div class="container text-center w-75 px-4 border-end border-start border-dark border-2 my-5">
+        <div class="container text-center w-75 px-4 border-end border-start border-dark border-2 my-5" id="sobre-mi">
             <h2>Sobre Mí</h2>
             <p>
                 Motivada por diseñar y desarrollar productos que resuelvan problemas reales, estoy constantemente aprendiendo nuevas herramientas para estar actualizada con las nuevas necesidades de la industria.
@@ -109,13 +115,19 @@
             </div>
         </div>
         <div class="seccion-color container-fluid p-4 mt-5">
-            <h3>¿En qué he trabajado?</h3>
+        <h3>¿En qué he trabajado?</h3>
             <div class="container-fluid py-4">
                 <div class="row">
                   <div class="col-lg-12">
-                    <div>
+<!--                     <div>
                       <ul class="list-inline items">
                         <li class="list-inline-item items-list text-center">
+                            <li class="items-list">
+                                hola
+                            </li>
+                            <li class="items-list">
+                                hola
+                            </li>
                           <div class="px-4">
                             <i class="fa-solid fa-highlighter py-3"></i>
                             <h5>Diseñadora Gráfica<br> Patitas Amigas</h5>
@@ -140,6 +152,38 @@
                           </div>
                         </li>
                       </ul>
+                    </div> -->
+                    <div class="text-center">
+                        <ul class="list-inline items">
+                            <li class="list-inline-item items-list text-center px-3">
+                                <i class="fa-solid fa-highlighter py-3"></i>
+                                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eo_circle_red_blank.svg/1200px-Eo_circle_red_blank.svg.png" alt="logo" width="100px" height="auto"> -->
+                                <h5 class="pt-2">Diseñadora Gráfica<br>Freelance</h5>
+                            </li>
+                            <li class="list-inline-item items-list text-center px-3">
+                                <i class="fa-solid fa-palette py-3"></i>
+                                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eo_circle_red_blank.svg/1200px-Eo_circle_red_blank.svg.png" alt="logo" width="100px" height="auto"> -->
+                                <h5 class="pt-2">Ilustradora de Literatura Infantil<br>Freelance</h5>
+                            </li>
+<!--                             <li class="list-inline-item items-list text-center">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eo_circle_red_blank.svg/1200px-Eo_circle_red_blank.svg.png" alt="logo" width="100px" height="auto">
+                                <h5 class="pt-2">Práctica Industrial<br>Convictus</h5>
+                            </li> -->
+<!--                             <li class="list-inline-item items-list text-center">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eo_circle_red_blank.svg/1200px-Eo_circle_red_blank.svg.png" alt="logo" width="100px" height="auto">
+                                <h5 class="pt-2">Práctica Profesional<br>Upcycling Co.</h5>
+                            </li> -->
+                            <li class="list-inline-item items-list text-center px-3">
+                                <i class="fa-solid fa-screwdriver-wrench py-3"></i>
+                                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eo_circle_red_blank.svg/1200px-Eo_circle_red_blank.svg.png" alt="logo" width="100px" height="auto"> -->
+                                <h5 class="pt-2">Dir. Diseño y Fabricación <br> Reddo bio</h5>
+                            </li>
+                            <li class="list-inline-item items-list text-center px-3 ps-5">
+                                <i class="fa-solid fa-object-group py-3"></i>
+                                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eo_circle_red_blank.svg/1200px-Eo_circle_red_blank.svg.png" alt="logo" width="100px" height="auto"> -->
+                                <h5 class="pt-2">UX/UI Designer <br> Freelance </h5>
+                            </li>
+                        </ul>
                     </div>
                   </div>
                 </div>
@@ -160,7 +204,7 @@
                 <div class="card-body p-5">
                   <h4 class="card-title">Proyecto reciente: Diseño e implementación Portafolio Web</h4>
                   <p class="card-text">TMalesuada viverra pulvinar consectetur ac gravida sed neque aliquam enim. Orci malesuada tortor quisque egestas feugiat. Amet senectus placerat tellus pellentesque. Eu neque lectus eget enim metus tincidunt aliquam.</p>
-                  <a href="./portafolio-desafio-latam.html">Ver más ></a>
+                  <a href="./p-ux-ui-1.html">Ver más ></a>
                 </div>
               </div>
             </div>
@@ -169,22 +213,22 @@
             <div class="card col border border-0 rounded-0" style="background-color: #866DE2;">
                 <img src="./assets/images/uxui.png" alt="Trabajo UX/UI" class="card-img-top w-100 rounded-0">
                 <div class="card-body">
-                  <h4 class="card-title">UX/UI y Desafío Latam</h4>
-                  <a href="./portafolio-desafio-latam.html" class="btn btn-color-2">></a>
+                  <h4 class="card-title">UX/UI</h4>
+                  <a href="./p-ux-ui.html" class="btn btn-color-2">></a>
                 </div>
             </div>
             <div class="card col border border-0 rounded-0" style="background-color: #866DE2;">
                 <img src="./assets/images/producto.png" alt="Trabajo Diseño de Productos" class="card-img-top w-100 rounded-0">
                 <div class="card-body">
                   <h4 class="card-title">Diseño de Productos </h4>
-                  <a href="#" class="btn btn-color-2">></a>
+                  <a href="./p-diseño-prod.html" class="btn btn-color-2">></a>
                 </div>
             </div>
             <div class="card col border border-0 rounded-0" style="background-color: #866DE2;">
                 <img src="./assets/images/ilustracion.png" class="card-img-top w-100 rounded-0" alt="Trabajo Ilustración">
                 <div class="card-body">
                   <h4 class="card-title">Diseño Gráfico e Ilustración</h4>
-                  <a href="#" class="btn btn-color-2">></a>
+                  <a href="./p-diseño-graf.html" class="btn btn-color-2">></a>
                 </div>
             </div>
         </div>
@@ -192,8 +236,8 @@
     </section>
 
     <!--Colaboremos-Footer -->
-    <footer class="seccion-color container-fluid">
-        <h2>¡Colaborémos!</h2>
+    <footer class="seccion-color container-fluid" id="contacto">
+        <h2>Colaborémos</h2>
         <div class="card my-5 border border-0 rounded-0" style="background-color: #FFCC3D;">
             <div class="row g-0">
                 <div class="col-md-4">
@@ -201,8 +245,8 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h4 class="card-title">Erat curabitur semper facilisis</h4>
-                        <p class="card-text">Amet adipiscing nunc purus feugiat est diam rutrum sit tellus. Eget dictumst mi augue scelerisque posuere id amet urna. Sed ullamcorper metus iaculis ut bibendum gravida.</p>
+                        <h4 class="card-title">¡Llegaste al final de la página!</h4>
+                        <p class="card-text">Si estás interesad@ en trabajar en conjunto, o quieres mandarme un mensaje sobre otros motivos laborales. Siéntete libre de mandarme un correo o hablarme por Whatsapp. ¡Nos vemos!</p>
                     </div>
                 </div>
             </div>
